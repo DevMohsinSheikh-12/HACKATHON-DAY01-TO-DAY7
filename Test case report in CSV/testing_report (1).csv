@@ -1,0 +1,8 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To
+TC001,Verify product listing loads correctly,Open homepage ? Check product section,Products should be visible,Products load as expected,Passed,Low,Developer
+TC002,Ensure search bar filters products correctly,Type 'Coat' in the search bar ? Press Enter,Only products related to 'Coat' appear,Only Coat products appear,Passed,Medium,Developer
+TC003,Add product to cart,Select a product ? Click 'Add to Cart',Product should appear in cart,Product added successfully,Passed,Low,Developer
+TC004,checkout button disabled untill shipping details Saved,Add product to cart ? Click 'add shiping details first' ? Fill details,Saved sucessfully ? redirects to cart ? Enabled checkout btn,Saved sucessfully > redirects to cart > Enabled checkout btn,Passed,Medium,Developer
+TC005,Checkout process works smoothly,Details Saved  ?Redirected to Cart? Click 'Checkout' ? Fill details ? Place order,Order should be placed successfully,Payment successful ? redirects to success page,Passed,High,Developer
+TC006,Validate error handling for network failures,Disable internet ? Try to load product page,'No internet connection' message should appear,"No message appears, page is blank",Failed,High,Developer
+TC006,Verify responsive design on mobile,Open site on mobile ? Check UI layout,UI should be fully responsive,UI fully responsive,Passed,Medium,Developer
