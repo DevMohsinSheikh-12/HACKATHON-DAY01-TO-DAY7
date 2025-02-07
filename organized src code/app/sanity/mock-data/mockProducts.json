@@ -1,0 +1,51 @@
+[
+    
+  {
+    "name": "Casual Green Bomber Jacket",
+  
+    "_type": "product",
+    "isNew": true,
+    "colors": [
+      "Blue",
+      "Red",
+      "Black",
+      "Yellow"
+    ],
+    
+    "description": [
+      {
+        "_type": "block",
+        "children": [
+          {
+            "_type": "span",
+            "text": "This stylish green bomber jacket offers a sleek and modern twist on a classic design. Made from soft and comfortable fabric, it features snap buttons and ribbed cuffs, giving it a sporty yet refined look.",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "text": "The minimalist style makes it perfect for layering over casual t-shirts or hoodies. Whether you're out with friends or just lounging, this jacket provides a laid-back yet fashionable vibe.",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "text": "Its muted green color adds a subtle, earthy tone that pairs well with a variety of outfits, making it a versatile addition to your casual wardrobe.",
+            "marks": []
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+        "price":300,
+    "category": "hoodie",
+   
+    "sizes": [
+      "S",
+      "XXL",
+      "XL",
+      "L"
+    ],
+    "stock": 50
+  }
+  ]
+  
